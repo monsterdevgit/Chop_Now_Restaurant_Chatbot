@@ -1,0 +1,195 @@
+Default Welcome Intent
+======================
+Text response:  
+how far?
+How you dey go?
+wetin dey sup?
+How e bi?
+How your side?
+How una dey?
+How things be?
+"How body?"
+How you dey?
+just going to say hi
+
+heya
+hello hi
+howdy
+hey there
+hi there
+greetings
+hey
+long time no see
+hello
+lovely day isn't it
+
+I greet you
+hello again
+hi
+hello there
+a good day
+
+				
+Default Fallback Intent
+========================
+Text Response: 
+1. I didn't understand that. 
+You can say 'New Order' or 'Track Order'. 
+Also, in a new order, please mention only items from our available menu: BEANS (PLAIN), WHITE RICE, JOLLOF RICE, FRIED RICE, YAM FRIES, FRESH BREAD, COLESLAW, OFADA SAUCE, BOILED YAM, MOI-MOI, FRIED CHICKEN, BOILED EGG, GRILLED CHICKEN, YAM PORRIDGE, JOLLOF SPAGHETTI, EGG SAUCE, BEEF, FRIED PLANTAIN, POUNDO YAM, EBA, SEMOVITA, AFANG SOUP, EDIKAIKONG SOUP, EGUSI SOUP. 
+Also specify a quantity for each item.
+For example: "One plate of JOLLOF RICE and 2 chicken"
+
+2. I no understand. You fit talk 'New Order' or 'Track Order'. For di new order, abeg mention only di items wey dey for our menu: BEANS (PLAIN), WHITE RICE, JOLLOF RICE, FRIED RICE, YAM FRIES, FRESH BREAD, COLESLAW, OFADA SAUCE, BOILED YAM, MOI-MOI, FRIED CHICKEN, BOILED EGG, GRILLED CHICKEN, YAM PORRIDGE, JOLLOF SPAGHETTI, EGG SAUCE, BEEF, FRIED PLANTAIN, POUNDO YAM, EBA, SEMOVITA, AFANG SOUP, EDIKAIKONG SOUP, EGUSI SOUP. Still add quantity for each item, for example, you fit say: "One plate of JOLLOF RICE and 2 chicken."
+
+
+Intent = Menu.list
+==============
+wetin dey
+which food you get
+wetin una dey sell
+I go like see menu wey get all the food wey dey available.
+Wetin be the food choices wey I fit select from?
+Tell me about the different items wey dey for your menu.
+Abeg, fit give me list of the food wey dey available?
+Wetin dey for your menu?
+What are the options for food items I can choose from?
+Tell me about the different meals I can order from your menu.
+
+Can you provide me with a list of your menu items?
+What types of food do you offer?
+Could you give me an idea of what's on your menu?
+I'd like to see a menu with all the available dishes.
+What are the food choices I can select from?
+Tell me about the different items on your menu.
+Can you provide a list of the dishes available?
+What food options do you have on your menu?
+				
+
+
+Intent= new.order
+=================
+how i go take buy food?
+i wan buy food
+give me
+place new order
+new order
+
+	Text Response
+1	
+Okay, we are kicking off a new order. You can say things like "I want two chicken and one moi-moi". Make sure to specify a quantity for every food item!
+2	
+Okay, we are starting a new order. You can say things like "I want two chicken and one moi-moi". Make sure to specify a quantity for every food item!
+3	
+Oya na, Tell me wetin you want, make i arrange am. You fit say:  "I want two chicken and one moi-moi". Make sure say you talk the quantity for every food!
+
+
+Intent= order.add - context: ongoing-order
+==========================================
+four edikaikong soup
+10 chicken
+three spag
+1 moi-moi
+2 beans
+Oh yes, add one BEANS (PLAIN) as well
+Additionally, I'd like 2 SEMOVITA.
+ 2 OFADA SAUCE and ok lets add one YAM FRIES too
+ 3 FRESH BREAD
+Also, please give me 2 BOILED EGG
+Moreover, include 2 GRILLED CHICKEN
+In addition, add 1 BEANS (PLAIN) and 2 WHITE RICE
+if you don't mind
+ I want 1 Edikaikong Soup, 2 POUNDO YAM and one BEEF, do it fast plz
+I'll take 2 orders of OFADA SAUCE, one JOLLOF RICE, and 1 FRESH BREAD
+Can I get 2 plates of JOLLOF SPAGHETTI, along with one COLESLAW and 1 FRIED CHICKEN?
+3 Egusi Soup, 2 SEMOVITA, 1 FRIED CHICKEN
+Please prepare 2 portions of WHITE RICE, along with one FRIED PLANTAIN and 1 EGG SAUCE for me
+Can you please get me two servings of FRIED RICE, one YAM PORRIDGE, and one EGG SAUCE?
+I'd like to order two plates of Afang Soup,  one plate of BOILED YAM, and 3 EBA, please.
+Give me 2 plates of JOLLOF RICE, 1  plates of FRIED RICE , one FRIED chicken
+
+
+Intent= order.complete - context: ongoing-order
+==========================================
+e don finish
+nooo
+noo
+noooooo
+no. na all be that
+mba
+no
+That's it
+Done
+Done ordering it
+That's all I needed
+Nope
+Place an order
+
+
+Intent= order.remove - context: ongoing-order
+==========================================
+Abeg, remove SEMOVITA.
+Remove YAM PORRIDGE from my order.
+I no want Edikaikong Soup.
+Hey, abeg remove FRIED PLANTAIN and EGG SAUCE.
+Delete SPAG from my order.
+Abeg, comot the CHICKEN from my order.
+I go like remove the YAM and MOI-MOI from my order.
+Abeg, exclude the OFADA SAUCE from my order.
+I no want the FRIES for my order again, remove am.
+I go like remove JOLLOF RICE and FRIED RICE, abeg.
+Abeg, comot BEANS and WHITE RICE from the order.
+No BREAD and salad for my order, abeg remove am.
+  remove YAM PORRIDGE from my order
+ don't want Edikaikong Soup
+hey, plz get rid of FRIED PLANTAIN and EGG SAUCE
+delete  SPAGHETTI from my order
+Please take the GRILLED CHICKEN off my order
+I would like to remove the BOILED YAM and MOI-MOI from my order
+Kindly exclude the OFADA SAUCE from my order
+please I no longer want the YAM FRIES in my order, please remove it
+I'd like to exclude JOLLOF RICE and FRIED RICE
+Kindly take BEANS (PLAIN) and WHITE RICE off the order, please.
+No  BREAD and COLESLAW  in my order. please remove.
+
+
+Intent= track.order
+===================
+have not gotten my order
+i never see my order
+wey my order
+i never get my food
+where's my order?
+where my order?
+e been get one order wey i make wetin happen to am?
+track order
+existing order
+check the status of my order
+
+Text response:
+	Definitely. What is your order id?
+2	
+Sure. Please enter your order id?
+3	
+Please provide your order ID?
+4	
+No wahala. Abeg, wetin be your order ID?
+5	
+No wahala. Gimme your order ID, abeg.
+6	
+Okay. tell me what your order ID is
+
+
+Intent= track.order - context: ongoing-tracking
+==================================================
+40
+41
+345
+123
+7890
+here is my order id # 341
+id is 453
+here is my order number 675
+here you go: 123
+here it is - 63321
+how about 40?
+how about 32
