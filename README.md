@@ -5,6 +5,8 @@ This project implements a chatbot(*Jinx*) for *Chop Now*, an hypothetical restau
 
 The bot supports both **English** and **Pidgin**, catering to local Nigerian users, making it more accessible and engaging.
 
+![Chatbot Demo](./Screenshot_1.png)
+
 ## Demo
 Watch the demo of the chatbot in action <a href="https://drive.google.com/file/d/1_5KhsUQT0b0JDWen8TSUBHgxEi6Na5ba/view?usp=sharing" target="_blank">here</a>.
 
@@ -76,5 +78,6 @@ This project demonstrates the integration of multiple technologies to build a co
 - **Multiple Language Support**: Extend support for more Nigerian languages.
 - **Extended Order Features**: Enable users to modify or cancel their orders.
 
+![Chatbot Demo](./Screenshot_2.png)
 
-
+![Chatbot Demo](./Screenshot_3.png)
