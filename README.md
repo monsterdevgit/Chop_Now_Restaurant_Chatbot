@@ -55,7 +55,7 @@ The system architecture can be broken down into several components:
 ## Installation
 
 ### Prerequisites
-- Python 3.8+
+- Python 
 - MySQL server
 - Dialogflow (Google Cloud)
 - Ngrok (for local testing)
